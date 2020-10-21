@@ -37,6 +37,7 @@ def create_labyrinth(num_rows: int, num_cols: int, n: int = 0) -> UndirectedGrap
         else:
             if n > 0:
                 corridors.append((u, v))
+                n -= 1
     return UndirectedGraph(E=corridors)
 
 
