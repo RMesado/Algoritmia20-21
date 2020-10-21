@@ -9,7 +9,7 @@ Vertex = Tuple[int, int]
 Edge = Tuple[Vertex, Vertex]
 
 
-def create_labyrinth(num_rows: int, num_cols: int) -> UndirectedGraph:
+def create_labyrinth(num_rows: int, num_cols: int, n: int = 0) -> UndirectedGraph:
     vertices: List[Tuple] = []
     for r in range(num_rows):
         for c in range(num_cols):
@@ -34,12 +34,15 @@ def create_labyrinth(num_rows: int, num_cols: int) -> UndirectedGraph:
         if mfs.find(v) != mfs.find(u):
             mfs.merge(v, u)
             corridors.append(e)
-
+        else:
+            if n > 0:
+                corridors.append((u, v))
     return UndirectedGraph(E=corridors)
 
 
 # Programa Principal
-seed(42)
-graph = create_labyrinth(60, 80)
-lv = LabyrinthViewer(graph, canvas_width=1200, canvas_height=800, margin=10)
-lv.run()
+if __name__ == "__main__":
+    seed(42)
+    graph = create_labyrinth(60, 80)
+    lv = LabyrinthViewer(graph, canvas_width=1200, canvas_height=800, margin=10)
+    lv.run()
