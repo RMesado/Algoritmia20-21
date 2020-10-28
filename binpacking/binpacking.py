@@ -28,15 +28,14 @@ def primero_que_quepa(W: List[int], C: int) -> List[int]:
 
 
 def primero_que_quepa_ordenado(W: List[int], C: int) -> List[int]:
-    sol = []
+    sol = [0] * len(W);
     contenedores = [C] * len(W)
-    objetos = W.copy()
-    objetos.sort(reverse=True)
+    objetos = sorted(range(len(W)), key=lambda i: -W[i])
     for w in objetos:
         for pos in range(len(contenedores)):
-            if w <= contenedores[pos]:
-                contenedores[pos] -= w
-                sol.append(pos)
+            if W[w] <= contenedores[pos]:
+                contenedores[pos] -= W[w]
+                sol[w] = pos
                 break
     return sol
 
