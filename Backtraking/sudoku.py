@@ -51,13 +51,26 @@ class SudokuPS(PartialSolution):
     # Devuelve la lista de sus sol. parciales sucesoras
     def successors(self) -> Iterable["SudokuPS"]:
         if len(self.v) > 0:
-            v2 = set(self.v)
-            _, f, c = min([(len(posibles_en(self.s, f, c)), f, c) for (f, c) in v2])
-            v2.remove((f, c))
+
+            # Con copia de self.v
+            # v2 = set(self.v)
+            # _, f, c = min([(len(posibles_en(self.s, f, c)), f, c) for (f, c) in v2])
+            # v2.remove((f, c))
+
+            # Sin copia de self.v
+            _, f, c = min([(len(posibles_en(self.s, f, c)), f, c) for (f, c) in self.v])
+            self.v.remove((f, c))
+
             for num in posibles_en(self.s, f, c):
-                s2 = deepcopy(self.s)  # Opción 2: s2 = [fila[:] for fila in self.s]
-                s2[f][c] = num
-                yield SudokuPS(s2, v2)  # Crear un SudokuPS nuevo
+                # Con copia de self.s
+                # s2 = deepcopy(self.s)  # Opción 2: s2 = [fila[:] for fila in self.s]
+                # s2[f][c] = num
+
+                # Sin copia de self.s
+                self.s[f][c] = num  # Modificamos el sudoku padre
+                yield SudokuPS(self.s, self.v)  # Crear un SudokuPS nuevo
+                self.s[f][c] = 0  # Lo devolvemos a su estado anterior, como si no hubiera pasado nada
+            self.v.add((f, c))
 
 
 # PROGRAMA PRINCIPAL -------------------------------------------------------
