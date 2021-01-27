@@ -81,11 +81,26 @@ def mochila_iter_camino(v: List[int], w: List[int], C: int) -> Tuple[int, List[i
     N = len(v)  # número de objetos
     # --------------------
     # TODO: IMPLEMENTAR rellenar tabla mem
+    for c in range(0, C + 1):
+        mem[0, c] = (0, ())
+    for n in range(1, N + 1):
+        for c in range(0, C + 1):
+            if w[n - 1] > c:
+                mem[n, c] = mem[n - 1, c][0], (n - 1, c, 0)
+            else:
+                mem[n, c] = max((mem[n - 1, c][0],(n - 1, c, 0))
+                                ,(mem[n - 1, c - w[n - 1]][0] + v[n - 1], (n - 1, c - w[n - 1], 1)))
     # --------------------
-    score = 0  # TODO: Cambiar por mem[N, C][0]
+    score = mem[N, C][0]
     sol = []
     # --------------------
     # TODO: IMPLEMENTAR recuperación de camino en sol
+    n, c = N, C
+    while n > 0:
+        _, (n_previo, c_previo, d) = mem[n, c]
+        sol.append(d)
+        n, c = n_previo, c_previo
+    sol.reverse()
     # --------------------
     return score, sol
 

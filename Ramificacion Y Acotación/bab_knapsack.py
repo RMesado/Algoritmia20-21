@@ -31,7 +31,7 @@ def knapsack_bab_solve(weights, values, capacity):
                     valor_trozo = trozo * values[num_obj] / weights[num_obj]
                     cv2 += valor_trozo
                     break
-            return cv2  # AHORA ES DEMASIADO OPTIMISTA (asume que puede coger todo lo que queda)
+            return cv2  # AHORA ES DEMASIADO OPTIMISTA (asume que puede coger to-do lo que queda)
 
         # TODO: IMPLEMENTAR - utilizar algoritmo voraz (visto en el tema de voraces)
         def _calc_pes_bound(self) -> Union[int, float]:

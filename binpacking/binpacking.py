@@ -28,7 +28,7 @@ def primero_que_quepa(W: List[int], C: int) -> List[int]:
 
 
 def primero_que_quepa_ordenado(W: List[int], C: int) -> List[int]:
-    sol = [0] * len(W);
+    sol = [0] * len(W)
     contenedores = [C] * len(W)
     objetos = sorted(range(len(W)), key=lambda i: -W[i])
     for w in objetos:
