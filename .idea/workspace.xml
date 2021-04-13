@@ -19,15 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a467ce13-61c5-47d3-9892-257b4bfe973a" name="Default Changelist" comment="">
+    <list default="true" id="a467ce13-61c5-47d3-9892-257b4bfe973a" name="Default Changelist" comment="Ejercicios de repaso viejos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grafos/Problema1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grafos/Problema1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grafos/Problema2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grafos/Problema2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen/Voraces2019.py" beforeDir="false" afterPath="$PROJECT_DIR$/Examen/Voraces2019.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -38,7 +44,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1isKntMnNBOXOlvkjz6V4q92C9d" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -48,16 +54,22 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../easycanvas/src" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DivideYVencerás" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rafae\PycharmProjects\Algoritmia20-21\DivideYVencerás" />
+      <recent name="C:\Users\rafae\PycharmProjects\Algoritmia20-21\Backtraking" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rafae\PycharmProjects\Algoritmia20-21\Utils" />
+      <recent name="C:\Users\rafae\PycharmProjects\Algoritmia20-21\Ramificacion Y Acotación" />
       <recent name="D:\PyCharm\Algoritmia20-21\Repaso" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Problema2">
-    <configuration name="Problema1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Voraces2019">
+    <configuration name="Voraces2019" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmia20-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grafos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Examen" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grafos/Problema1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Examen/Voraces2019.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Problema2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pico_vector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmia20-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grafos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MetodoMaestro" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grafos/Problema2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MetodoMaestro/pico_vector.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Problema4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="punto_fijo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmia20-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +119,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Grafos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MetodoMaestro" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grafos/Problema4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MetodoMaestro/punto_fijo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sesion_8_mochila" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algoritmia20-21" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProgDinamica" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProgDinamica/sesion_8_mochila.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sesion_8_recursos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algoritmia20-21" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DivideYVencerás" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DivideYVencerás/sesion_8_recursos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,9 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Problema2" />
-        <item itemvalue="Python.Problema4" />
-        <item itemvalue="Python.Problema1" />
+        <item itemvalue="Python.Voraces2019" />
+        <item itemvalue="Python.sesion_8_mochila" />
+        <item itemvalue="Python.sesion_8_recursos" />
+        <item itemvalue="Python.pico_vector" />
+        <item itemvalue="Python.punto_fijo" />
       </list>
     </recent_temporary>
   </component>
@@ -137,21 +193,42 @@
       <option name="presentableId" value="Default" />
       <updated>1602691030037</updated>
     </task>
-    <task id="LOCAL-00001" summary="Ejercicios de repaso viejos">
-      <created>1602691414155</created>
+    <task id="LOCAL-00001" summary="Sudoku dificl resuelto. Falta mejora adicional">
+      <created>1605094537576</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1602691414155</updated>
+      <updated>1605094537576</updated>
     </task>
-    <task id="LOCAL-00002" summary="no se que es esto">
-      <created>1602691464955</created>
+    <task id="LOCAL-00002" summary="Lab mochila backtraking completado">
+      <created>1605699046347</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1602691464956</updated>
+      <updated>1605699046347</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Problemas byb">
+      <created>1606304108094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606304108094</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Falta acabar suma_maxima.py">
+      <created>1606908928276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606908928276</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lab dinamica">
+      <created>1608723304937</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608723304937</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,57 +246,22 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ejercicios de repaso viejos" />
-    <MESSAGE value="no se que es esto" />
-    <option name="LAST_COMMIT_MESSAGE" value="no se que es esto" />
+    <MESSAGE value="Sudoku dificl resuelto. Falta mejora adicional" />
+    <MESSAGE value="Lab mochila backtraking completado" />
+    <MESSAGE value="Problemas byb" />
+    <MESSAGE value="Falta acabar suma_maxima.py" />
+    <MESSAGE value="lab dinamica" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab dinamica" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="587" y="88" key="CommitChangelistDialog2" timestamp="1602691464341">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="587" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602691464341" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1602691214464">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602691214464" />
-    <state width="956" height="282" key="GridCell.Tab.0.bottom" timestamp="1603299926436">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="956" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603299926436" />
-    <state width="956" height="282" key="GridCell.Tab.0.center" timestamp="1603299926435">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="956" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603299926435" />
-    <state width="956" height="282" key="GridCell.Tab.0.left" timestamp="1603299926435">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="956" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603299926435" />
-    <state width="956" height="282" key="GridCell.Tab.0.right" timestamp="1603299926436">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="956" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603299926436" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1603298896581">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603298896581" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1603298896581">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603298896581" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1603298896581">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603298896581" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1603298896581">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603298896581" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1602691397240">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602691397240" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602691467162">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602691467162" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Examen/Voraces2019.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
