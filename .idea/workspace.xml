@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a467ce13-61c5-47d3-9892-257b4bfe973a" name="Default Changelist" comment="Ejercicios de repaso viejos">
+    <list default="true" id="a467ce13-61c5-47d3-9892-257b4bfe973a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Examen/Backtrackin Clase Repaso.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen/Voraces2019.py" beforeDir="false" afterPath="$PROJECT_DIR$/Examen/Voraces2019.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,28 @@
       <recent name="D:\PyCharm\Algoritmia20-21\Repaso" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Voraces2019">
+  <component name="RunManager" selected="Python.Backtrackin Clase Repaso">
+    <configuration name="Backtrackin Clase Repaso" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algoritmia20-21" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Examen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Examen/Backtrackin Clase Repaso.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Voraces2019" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmia20-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,27 +124,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MetodoMaestro/pico_vector.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="punto_fijo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algoritmia20-21" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MetodoMaestro" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MetodoMaestro/punto_fijo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Backtrackin Clase Repaso" />
         <item itemvalue="Python.Voraces2019" />
         <item itemvalue="Python.sesion_8_mochila" />
         <item itemvalue="Python.sesion_8_recursos" />
         <item itemvalue="Python.pico_vector" />
-        <item itemvalue="Python.punto_fijo" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608723304937</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Voraces bien hecho">
+      <created>1618325218074</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618325218074</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +258,8 @@
     <MESSAGE value="Problemas byb" />
     <MESSAGE value="Falta acabar suma_maxima.py" />
     <MESSAGE value="lab dinamica" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab dinamica" />
+    <MESSAGE value="Voraces bien hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Voraces bien hecho" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
