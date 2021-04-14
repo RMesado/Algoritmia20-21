@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a467ce13-61c5-47d3-9892-257b4bfe973a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Examen/Backtrackin Clase Repaso.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Algoritmia20-21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algoritmia20-21.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen/Backtrackin Clase Repaso.py" beforeDir="false" afterPath="$PROJECT_DIR$/Examen/Backtrackin Clase Repaso.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen/Voraces2019.py" beforeDir="false" afterPath="$PROJECT_DIR$/Examen/Voraces2019.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <recent name="D:\PyCharm\Algoritmia20-21\Repaso" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Backtrackin Clase Repaso">
+  <component name="RunManager" selected="Python.Voraces2019">
     <configuration name="Backtrackin Clase Repaso" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmia20-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Backtrackin Clase Repaso" />
         <item itemvalue="Python.Voraces2019" />
+        <item itemvalue="Python.Backtrackin Clase Repaso" />
         <item itemvalue="Python.sesion_8_mochila" />
         <item itemvalue="Python.sesion_8_recursos" />
         <item itemvalue="Python.pico_vector" />
@@ -260,16 +262,5 @@
     <MESSAGE value="lab dinamica" />
     <MESSAGE value="Voraces bien hecho" />
     <option name="LAST_COMMIT_MESSAGE" value="Voraces bien hecho" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Examen/Voraces2019.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

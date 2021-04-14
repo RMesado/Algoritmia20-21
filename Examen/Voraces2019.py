@@ -1,15 +1,13 @@
 from typing import *
 
-
+# M: Espacio disponible; L: Cantidad de cada tipo de objeto; B: beneficio de cada objeto; P: Peso de cada objeto
 def ej1(M: int, L: List[int], B: List[int], P: List[int]):
     sol = [0] * len(L)  # Paso 1: lista de solución vacía
     beneficio = 0
-    peso_usado = 0
+    peso_usado = 0 # Variable para hacer comprobaciones
     indices_ord_L = sorted(range(len(L)),
-                           key=lambda i: -B[i] / P[i])  # Paso 2: ordenar una lista de indices de ratio Beneficio/Peso
+                           key=lambda i: -B[i] / P[i])  # Paso 2: ordenar una lista de indices de mayor a menor ratio Beneficio/Peso
     for i in indices_ord_L:
-        l_act = L[i]
-        p_act = P[i]
         # while p_act > 0:  # --------NO USAR BUCLE WHILE PEDAZO DE SUBNORMAL
         #   espacio_gastado = l_act * p_act
         #  if espacio_gastado <= M:
@@ -39,7 +37,7 @@ if __name__ == "__main__":
     print('Cantidad Obj.: ', L)
     print('Pesos: ', P)
     print('Beneficio: ', B)
-    print('Solucion(Beneficio, lista_sol, peso usado) y Beneficio calculado a parte: ', sol, beneficio(B, sol[1]))
+    print('Solucion(Beneficio, lista_sol, peso usado) y Beneficio calculado a parte:\n', sol, beneficio(B, sol[1]))
     peso = 0
     ratio = []
     for i in range(len(L)):
