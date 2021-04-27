@@ -4,6 +4,8 @@ from bt_scheme import *
 Solution = Tuple[int, int, Tuple[int]]
 
 # La version con yields es más rapida para obtener la primera solución.
+#Lo comentado es la versión con returns
+#C: Espacio disponible, W: Peso de cada objeto; V: Valor de cada objeto
 
 def get_all_solutions(c: int, w: List[int], v: List[int]) -> List[Solution]:
     def bt(peso_actual: int, valor_actual: int, decisiones: Tuple[int]) -> List[Solution]:
