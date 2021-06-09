@@ -43,6 +43,6 @@ b = (100, 911)  # beneficio de cada tipo de electrodomésticos
 p = (100, 910)  # peso de cada tipo de electrodoméstico
 m = (10000, 10000)  # máximo nº de unidades de cada tipo de electrodomestico que podemos vender
 
-print("Mejor solución: ", tienda_solver(C, b, p, m))
+print("Mejor solución: ")
 for sol in tienda_solver(C, b, p, m):
     print(sol)
