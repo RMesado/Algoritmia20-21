@@ -1,4 +1,7 @@
+from math import floor
+
 x = [1,6,8,9,4,2,0]
 
 print(sorted(x))
-print(sorted(range(len(x)), key=lambda i: -x[i]))
+print(sorted(range(len(x)), key=lambda i: x[i]))
+print(floor(6.4))
